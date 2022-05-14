@@ -13,6 +13,8 @@ namespace JACK
     {
         [SerializeField, Header("虛擬搖桿")]
         private Joystick joystick;
+        [SerializeField, Header("移動速度"), Range(0, 300)]
+        private float speed = 3.5f;
 
         private Rigidbody rig;
 
@@ -23,7 +25,7 @@ namespace JACK
 
         private void Update()
         {
-            GetJoystickValue();
+            //GetJoystickValue();
         }
 
         private void FixedUpdate()
@@ -40,11 +42,12 @@ namespace JACK
         }
 
         /// <summary>
-        /// 5
+        /// 移動功能
         /// </summary>
         private void Move()
         {
-            rig.velocity = new Vector3(0, 0, joystick.Horizontal);
+            //剛體.加速度 = 三維向量(X,Y,Z)
+            rig.velocity = new Vector3(-joystick.Vertical, 0, joystick.Horizontal) * speed;
         }
     }
 }
