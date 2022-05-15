@@ -25,7 +25,7 @@ namespace JACK
         private void Awake()
         {
             rig = GetComponent<Rigidbody>();
-            ani = GetComponent<Animator>;
+            ani = GetComponent<Animator>();
         }
 
         private void Update()
