@@ -8747,7 +8747,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &801871416
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10441,6 +10441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   joystick: {fileID: 1844037169}
   speed: 10
+  parameterWalk: "\u958B\u95DC\u8DD1\u6B65"
 --- !u!136 &1004717564
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10517,7 +10518,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7786561, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
