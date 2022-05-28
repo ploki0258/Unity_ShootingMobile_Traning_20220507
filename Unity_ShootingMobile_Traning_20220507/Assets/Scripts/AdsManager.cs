@@ -119,7 +119,7 @@ namespace JACK
             textCoin = GameObject.Find("玩家鑽石數量").GetComponent<Text>();
             btnAdsAddCoin = GameObject.Find("廣告按鈕添加鑽石").GetComponent<Button>();
 
-            textCoin = GameObject.Find("玩家能量數量").GetComponent<Text>();
+            textEnergy = GameObject.Find("玩家能量數量").GetComponent<Text>();
             btnAdsAddEnergy = GameObject.Find("廣告按鈕添加能量").GetComponent<Button>();
             btnAdsAddCoin.onClick.AddListener(LoadAds);
 
