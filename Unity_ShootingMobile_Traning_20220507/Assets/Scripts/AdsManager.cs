@@ -131,7 +131,7 @@ namespace JACK
 #if UNITY_IOS
             adsId = adsIdIos;
 #elif UNITY_ANDROID
-            adsId = adsAndroid;
+            adsId = adsIdAndroid;
 #endif
             //PCºÝ´ú¸Õ
             adsId = adsIdAndroid;
